@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404;
   background-size: cover;
   left: 0;
   right: 0;
@@ -448,8 +448,8 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume .btn-danger {
-  position:relative;
-  left: 45%;
-  margin-top: 20%;
+
+.resume .resume_preview {
+  height: 100vh;
+  width: 50vw;
 }
